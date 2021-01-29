@@ -10,7 +10,6 @@ $mysqli = new
 
 if ($mysqli -> connect_errno) {
   echo "db connect error" . $mysqli -> connect_error;
-  $mysqli -> gain_user;
   exit();
 }
 ?>
